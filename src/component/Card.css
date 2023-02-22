@@ -1,0 +1,52 @@
+.card {
+
+
+    border: 1px solid #dda146;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    height :500px ;
+    padding-top:50px;
+    margin-top:150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: bisque;
+  }
+  
+  .card-header {
+    text-align: center;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .input input {
+    flex-grow: 1;
+    margin-right: 50px;
+  }
+  
+  .input button {
+    flex-shrink: 0;
+  }
+  
+  .message {
+    border: 1px solid #4b4b4b;
+    border-radius: 5px;
+    padding: 10px;
+    height:100%;
+    width :90%;
+    margin-bottom: 20px;
+    min-height: 100px;
+  }
+  
